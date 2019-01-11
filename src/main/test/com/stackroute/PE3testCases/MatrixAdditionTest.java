@@ -1,10 +1,11 @@
+package com.stackroute.PE3testCases;
+
+import com.stackroute.PE3.MatrixAddition;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
-
-import java.util.Arrays;
 
 import static org.junit.Assert.*;
 

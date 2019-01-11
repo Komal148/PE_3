@@ -1,3 +1,6 @@
+package com.stackroute.PE3testCases;
+
+import com.stackroute.PE3.ConsecutiveNumbers;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

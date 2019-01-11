@@ -1,28 +1,19 @@
-/*
- * %W% %E%
-Komal Rani
- *
- * Copyright (c) Komal Rani All rights reserved.
- * This code has been solemnly made by Komal Rani
- * Working In Boeing India Pvt. Ltd.
- */
-
 /**
- * This Java program a class called StudentMarks, which prompts user for the
+ * This Java program a class called com.stackroute.PE3.StudentMarks, which prompts user for the
  * number of students, reads it from the keyboard, and saves it in an
  * int variable called numOfStudents. It then prompts user for the grades of
  * each of the students and saves them in an int array called studentGrades.
  * Your program shall check that the grade is between 0 and 100 else has to
  * sthrow an error message..
  */
-import java.util.InputMismatchException;
+package com.stackroute.PE3;
 import java.util.Scanner;
 
 public class StudentMarks {
     private int[] studentGrade; //array that contains student marks
     private int numberOfStudent; // number of Students
 
-    public static void main( String args[] )
+   /* public static void main( String args[] )
     {
         StudentMarks studentMarks=new StudentMarks();
         Scanner in = new Scanner(System.in);
@@ -37,7 +28,7 @@ public class StudentMarks {
                 int number=in.nextInt();
                 if( number > 100 || number < 0 )
                 {
-                    /* Throwing exception when the number is greater than 100 and less than 0 */
+                    *//* Throwing exception when the number is greater than 100 and less than 0 *//*
                     i--;
                     throw new IllegalArgumentException();
 
@@ -55,9 +46,11 @@ public class StudentMarks {
         }
         System.out.println(studentMarks.computeStudentGrade(studentMarks.studentGrade,studentMarks.numberOfStudent));
     }
+*/
 
-
-    /* computeStudentGrade method that is called from testCases*/
+    /*
+    computeStudentGrade method that is called from testCases
+    */
 
     public String computeStudentGrade(int studentGrade[] , int numberOfStudent)
     {

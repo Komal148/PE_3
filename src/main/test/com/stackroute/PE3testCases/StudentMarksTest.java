@@ -1,12 +1,11 @@
+package com.stackroute.PE3testCases;
+
+import com.stackroute.PE3.StudentMarks;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
-
-import java.util.ArrayList;
-import java.util.InputMismatchException;
-import java.util.List;
 
 import static org.junit.Assert.*;
 
